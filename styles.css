@@ -1,0 +1,49 @@
+a.highlight:hover {
+    color: blue;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+a:active {
+    background-color: red;
+    font-display: italic;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+  }
+
+
+  input:focus {
+    background-color: aqua;
+    font-size: 20px;
+  }  
+
+  
+        ul {
+          list-style-type: none;
+          margin-left: -2em;
+          padding: 1em;
+          background-color: darkblue;
+          
+        }
+        
+        li {
+          display: inline;
+          padding: 10px;
+          background-color: lightblue;
+        }
+    
+        /* selected link */
+        a:active {
+        background-color: gray;
+}
+
+
+::first-letter :hover {
+  background-color: lightcoral;
+}
+
+
+
